@@ -1,7 +1,7 @@
 module CarNumberValidator
   module Core
     def valid?(number)
-      parse(phone_number).valid?
+      number
     end
   end
 end
